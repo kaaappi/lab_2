@@ -1,0 +1,69 @@
+td {
+    height: 30px;
+    width: 150px;
+    color: black;
+}
+
+table tr:first-child {
+    background-color: #058F8F;
+}
+table tr:first-child:hover {
+    background-color: #f5f505;
+}
+
+table tr:nth-child(2) {
+    background-color: #f5f505
+}
+table tr:nth-child(2):hover {
+    background-color: #058F8F
+}
+
+
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0.7;
+}
+
+.light-blue {
+    background-color: lightcoral;
+    left: 40px;
+}
+
+.light-green {
+    background-color: lightgreen;
+    top: -40px;
+    left: 80px;
+}
+
+.light-red {
+    background-color: lightblue;
+    top: -140px;
+}
+
+
+.diff__circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.blue {
+    background-color: lightcoral;
+    transform: translate(40px);
+}
+
+.green {
+    background-color: lightblue;
+    transform: translate(0,-40px);
+}
+
+.red {
+    background-color: lightgreen;
+    transform: translate(80px, -140px);
+}
